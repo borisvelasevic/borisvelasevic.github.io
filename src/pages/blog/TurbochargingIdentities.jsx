@@ -22,7 +22,7 @@ const TurbochargingIdentities = () => {
                     <BlockMath math="\sum_{k \text{ even}} \binom{n}{k} = \sum_{k \text{ odd}} \binom{n}{k}" />
 
                     <p>
-                        At first glance, one might want to utilize the fact that <InlineMath math="\binom{n}{k} = \binom{n}{n - k}" />
+                        At first glance, one might want to utilize the fact that <InlineMath math="\binom{n}{k} = \binom{n}{n - k}" />{" "}
                         to pair off the left and right-hand sides directly. However, this argument works if and only if <InlineMath math="n" />{" "}
                         is odd, and the other case needs to be dealt with separately. In a situation where we need to prove the
                         identity if we wish to use it, and where we are operating under a time constraint (for example, in a timed exam),
