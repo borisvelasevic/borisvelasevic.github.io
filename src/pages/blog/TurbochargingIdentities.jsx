@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import 'katex/dist/katex.min.css';
 import { InlineMath, BlockMath } from 'react-katex';
 
@@ -22,7 +23,7 @@ const TurbochargingIdentities = () => {
 
                     <p>
                         At first glance, one might want to utilize the fact that <InlineMath math="\binom{n}{k} = \binom{n}{n - k}" />
-                        to pair off the left and right-hand sides directly. However, this argument works if and only if <InlineMath math="n" />
+                        to pair off the left and right-hand sides directly. However, this argument works if and only if <InlineMath math="n" />{" "}
                         is odd, and the other case needs to be dealt with separately. In a situation where we need to prove the
                         identity if we wish to use it, and where we are operating under a time constraint (for example, in a timed exam),
                         a more direct approach is highly preferred.
@@ -65,7 +66,7 @@ const TurbochargingIdentities = () => {
                 </article>
 
                 <div className="blog-footer">
-                    <a href="/blog" className="btn btn-outline small">← Back to Blog</a>
+                    <Link to="/blog" className="btn btn-outline small">← Back to Blog</Link>
                 </div>
             </div>
 
