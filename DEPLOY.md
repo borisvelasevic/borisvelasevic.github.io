@@ -16,11 +16,22 @@ npx vercel
 ```
 It will guide you through a literal 1-minute setup.
 
-## Option 2: GitHub Pages
-Since you are likely already using GitHub:
-1. Create a new repository on GitHub named `boris-velasevic.github.io`.
-2. Push this code to that repository.
-3. The site will be available at `https://boris-velasevic.github.io`.
+## Option 1: GitHub Pages (Automated & Recommended)
+I've already set up a **GitHub Action** in your project. This means your site will automatically deploy whenever you push code to GitHub.
+
+### Steps to set up:
+1. Create a new repository on GitHub.
+   - If you want the URL to be `borisvelasevic.github.io`, name the repo `borisvelasevic.github.io`.
+   - If you name it anything else (e.g., `personal-site`), the URL will be `borisvelasevic.github.io/personal-site/`.
+2. Push your code to this repository:
+   ```bash
+   git remote add origin https://github.com/yourusername/reponame.git
+   git branch -M master
+   git push -u origin master
+   ```
+3. Go to your repository on GitHub: **Settings > Pages**.
+4. Under **Build and deployment > Source**, ensure **"GitHub Actions"** is selected.
+5. Your site will automatically build and go live!
 
 ## Option 3: Caltech Hosting
 If you want to use your Caltech domain:
