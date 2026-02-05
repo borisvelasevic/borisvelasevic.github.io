@@ -1,40 +1,40 @@
 const Research = () => {
-    return (
-        <div className="research-page animate-fade-in">
-            <div className="container section">
-                <h1 className="page-title">Research</h1>
+  return (
+    <div className="research-page animate-fade-in">
+      <div className="container section">
+        <h1 className="page-title">Research</h1>
 
-                <div className="paper-list">
-                    {/* Paper Entry */}
-                    <div className="paper-card">
-                        <div className="paper-year">2023</div>
-                        <div className="paper-content">
-                            <h3 className="paper-title">
-                                Effects of Data Heterogeneity on Distributed Linear System Solvers
-                            </h3>
-                            <div className="paper-meta">
-                                <span className="paper-authors">Boris Velasevic</span>
-                                <span className="paper-venue">62nd IEEE Conference on Decision and Control (CDC)</span>
-                            </div>
-                            <p className="paper-abstract">
-                                This paper explores the performance differences between optimization-based and projection-based
-                                distributed linear system solvers, focusing on how data heterogeneity impacts convergence.
-                            </p>
-                            <div className="paper-links">
-                                <a href="https://arxiv.org/abs/2304.10640" target="_blank" rel="noopener noreferrer" className="link-item">
-                                    Arxiv (Updated)
-                                </a>
-                                <a href="https://doi.org/10.1109/CDC49753.2023.10383603" target="_blank" rel="noopener noreferrer" className="link-item">
-                                    CDC Publication
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    {/* Placeholder for more papers */}
-                </div>
+        <div className="paper-list">
+          {/* Paper Entry */}
+          <div className="paper-card">
+            <div className="paper-year">2023</div>
+            <div className="paper-content">
+              <h3 className="paper-title">
+                Effects of Data Heterogeneity on Distributed Linear System Solvers
+              </h3>
+              <div className="paper-meta">
+                <span className="paper-authors">Boris Velasevic, Navid Azizan</span>
+                <span className="paper-venue">62nd IEEE Conference on Decision and Control (CDC)</span>
+              </div>
+              <p className="paper-abstract">
+                This paper explores the performance differences between optimization-based and projection-based
+                distributed linear system solvers, focusing on how data heterogeneity impacts convergence.
+              </p>
+              <div className="paper-links">
+                <a href="https://arxiv.org/abs/2304.10640" target="_blank" rel="noopener noreferrer" className="link-item">
+                  Arxiv (Updated)
+                </a>
+                <a href="https://doi.org/10.1109/CDC49753.2023.10383603" target="_blank" rel="noopener noreferrer" className="link-item">
+                  CDC Publication
+                </a>
+              </div>
             </div>
-            <style>{`
+          </div>
+
+          {/* Placeholder for more papers */}
+        </div>
+      </div>
+      <style>{`
         .page-title {
           margin-bottom: var(--spacing-lg);
           border-bottom: 1px solid var(--color-border);
@@ -103,8 +103,8 @@ const Research = () => {
           }
         }
       `}</style>
-        </div>
-    );
+    </div>
+  );
 };
 
 export default Research;
