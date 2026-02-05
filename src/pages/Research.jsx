@@ -13,7 +13,7 @@ const Research = () => {
                 Effects of Data Heterogeneity on Distributed Linear System Solvers
               </h3>
               <div className="paper-meta">
-                <span className="paper-authors">Boris Velasevic, Navid Azizan</span>
+                <span className="paper-authors">Boris Velasevic, Rohit Parasnis, Christopher G. Brinton, Navid Azizan</span>
                 <span className="paper-venue">62nd IEEE Conference on Decision and Control (CDC)</span>
               </div>
               <p className="paper-abstract">
