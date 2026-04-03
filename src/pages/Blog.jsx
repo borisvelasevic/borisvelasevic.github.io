@@ -9,17 +9,11 @@ const Blog = () => {
           <div className="blog-card">
             <span className="blog-date">April 2026</span>
             <h2 className="blog-post-title">A Problem Dear to My Heart</h2>
-            <p className="blog-excerpt">
-              Discussing one of the most elegant problems in elementary number theory involving Euler's totient function.
-            </p>
             <Link to="/blog/favorite-problem" className="read-more">Read More →</Link>
           </div>
           <div className="blog-card">
             <span className="blog-date">February 2026</span>
             <h2 className="blog-post-title">Turbocharging simple combinatorial identities</h2>
-            <p className="blog-excerpt">
-              Exploring how the binomial theorem and basic calculus can provide short, elegant proofs for elementary identities.
-            </p>
             <Link to="/blog/turbocharging-identities" className="read-more">Read More →</Link>
           </div>
         </div>
