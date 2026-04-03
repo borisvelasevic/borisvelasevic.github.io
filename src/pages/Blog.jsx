@@ -7,6 +7,14 @@ const Blog = () => {
         <h1 className="page-title">Blog</h1>
         <div className="blog-list">
           <div className="blog-card">
+            <span className="blog-date">April 2026</span>
+            <h2 className="blog-post-title">A Problem Dear to My Heart</h2>
+            <p className="blog-excerpt">
+              Discussing one of the most elegant problems in elementary number theory involving Euler's totient function.
+            </p>
+            <Link to="/blog/favorite-problem" className="read-more">Read More →</Link>
+          </div>
+          <div className="blog-card">
             <span className="blog-date">February 2026</span>
             <h2 className="blog-post-title">Turbocharging simple combinatorial identities</h2>
             <p className="blog-excerpt">

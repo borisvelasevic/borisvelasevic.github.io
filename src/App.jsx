@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Research from './pages/Research';
 import Blog from './pages/Blog';
 import TurbochargingIdentities from './pages/blog/TurbochargingIdentities';
+import FavoriteProblem from './pages/blog/FavoriteProblem';
 import './index.css';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route path="research" element={<Research />} />
           <Route path="blog" element={<Blog />} />
           <Route path="blog/turbocharging-identities" element={<TurbochargingIdentities />} />
+          <Route path="blog/favorite-problem" element={<FavoriteProblem />} />
         </Route>
       </Routes>
     </Router>
