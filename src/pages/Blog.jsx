@@ -7,6 +7,11 @@ const Blog = () => {
         <h1 className="page-title">Blog</h1>
         <div className="blog-list">
           <div className="blog-card">
+            <span className="blog-date">October 2026</span>
+            <h2 className="blog-post-title">How Hard Is Hard?</h2>
+            <Link to="/blog/how-hard-is-hard" className="read-more">Read More →</Link>
+          </div>
+          <div className="blog-card">
             <span className="blog-date">April 2026</span>
             <h2 className="blog-post-title">A Problem Dear to My Heart</h2>
             <Link to="/blog/favorite-problem" className="read-more">Read More →</Link>
