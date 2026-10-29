@@ -23,7 +23,7 @@ const HowHardIsHard = () => {
                     </p>
 
                     <p>
-                        The short version of my view is that many problems will turn out to be much “easier” than we believe. Two things feed this. First, there is an asymmetry: to show that 3-SAT (or any other NP-hard problem) has no polynomial-time algorithm, you have to rule out every possible algorithm, whereas to show that it has one, you only need to write it down. (I know this is an argument about what is easy to prove, not about what is true.) Second, the space of algorithms and problems seems too large for humans to have a good grasp of. How do we know that at some large <InlineMath math="n" />, the “hard” instances don't simply run out, or become governed by structure we haven't noticed, or reduce to smaller and “easier” cases? Here is a toy example of what I mean (2 paragraphs of heavy math incoming).
+                        The short version of my view is that many problems will turn out to be much “easier” than we believe. Two things feed this. First, there is an asymmetry: to show that 3-SAT has no “fast” algorithm, you have to rule out every possible such algorithm, whereas to show that it has one, you only need to write it down. (I know this is an argument about what is easy to prove, not about what is true.) Second, the space of algorithms and problems seems too large for humans to have a good grasp of. How do we know that at some large <InlineMath math="n" />, the “hard” instances don't simply run out, or become governed by structure we haven't noticed, or reduce to smaller and “easier” cases? Here is a toy example of what I mean (2 paragraphs of heavy math incoming).
                     </p>
 
                     <p>
