@@ -9,7 +9,7 @@ const HowHardIsHard = () => {
             <div className="container blog-content">
                 <header className="blog-header">
                     <span className="blog-date">October 2026</span>
-                    <h1 className="post-title">How Hard is Hard - Some Philosophical Thoughts About ETH</h1>
+                    <h1 className="post-title">How Hard Is Hard? Some Philosophical Thoughts About ETH</h1>
                     <div className="post-author">By Boris Velasevic</div>
                 </header>
 
@@ -47,7 +47,7 @@ const HowHardIsHard = () => {
                     </p>
 
                     <p>
-                        When I first saw the median-of-medians algorithm, I was blown away; it seemed like magic. I would have bet that finding the median requires sorting the array, and hence <InlineMath math="\Omega(n \log n)" /> time, so when I saw the <InlineMath math="O(n)" /> algorithm, I told everyone. One response stuck with me. A friend said: “Why are you surprised? Information-theoretically, to know the median you only need to know which elements are smaller than it and which are larger, not how they are ordered.” Sorting, by contrast, has to determine which of the <InlineMath math="n!" /> possible orderings it was given, so any comparison-based sort needs about <InlineMath math="\log_2 n! \approx n \log n" /> comparisons. The median carries no such burden: the order within each side doesn't matter, so this counting argument doesn't apply.
+                        When I first saw the median-of-medians algorithm, I was blown away; it seemed like magic. I would have bet that finding the median requires sorting the array, and hence <InlineMath math="\Omega(n \log n)" /> time, so when I saw the <InlineMath math="O(n)" /> algorithm, I told everyone. One response stuck with me. A friend said: “Why are you surprised? Information-theoretically, to know the median you only need to know which elements are smaller than it and which are larger, not how they are ordered.” Sorting, by contrast, has to determine which of the <InlineMath math="n!" /> possible orderings it was given, so any comparison-based sort needs about <InlineMath math="\log_2 n! \approx n \log n" /> comparisons. The median carries no such burden: the order within each side doesn't matter, so these information-theoretic arguments give much weaker bounds.
                     </p>
 
                     <p>

@@ -8,7 +8,7 @@ const Blog = () => {
         <div className="blog-list">
           <div className="blog-card">
             <span className="blog-date">October 2026</span>
-            <h2 className="blog-post-title">How Hard is Hard - Some Philosophical Thoughts About ETH</h2>
+            <h2 className="blog-post-title">How Hard Is Hard? Some Philosophical Thoughts About ETH</h2>
             <Link to="/blog/how-hard-is-hard" className="read-more">Read More →</Link>
           </div>
           <div className="blog-card">
